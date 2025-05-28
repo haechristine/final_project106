@@ -1,0 +1,9 @@
+.tooltip-line {
+    position: absolute;
+    background: white;
+    padding: 6px;
+    border: 1px solid #ccc;
+    pointer-events: none;
+    font-size: 14px;
+  }
+  

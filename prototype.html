@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Glucose Trend with Meal Quiz (Individual 2)</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    svg { font-family: sans-serif; }
+    .tooltip { background: white; border: 1px solid #ccc; padding: 8px; position: absolute; display: none; }
+  </style>
+</head>
+<body>
+  <h2>Glucose Trend with Meal Quiz (Individual 2: High Glycemic Diet)</h2>
+  <p>Hover over the datapoints to guess what meal could have resulted in the glucose spike shown.</p>
+  <svg width="1000" height="500"></svg>
+  <div id="hoverTooltip" class="tooltip-line" style="display: none;"></div>
+  <div id="quiz" class="tooltip"></div>
+  <div id="result" style="margin-top: 10px; font-weight: bold; font-size: 16px;"></div>
+  <script src="glucoseViz.js"></script>
+</body>
+</html>
